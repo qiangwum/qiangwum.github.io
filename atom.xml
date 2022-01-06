@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com</id>
     <title>Gridea</title>
-    <updated>2022-01-06T11:15:35.260Z</updated>
+    <updated>2022-01-06T11:16:43.349Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com"/>
     <link rel="self" href="https://github.com/atom.xml"/>
@@ -16,53 +16,58 @@
         <link href="https://github.com/post/markdown-yu-fa/">
         </link>
         <updated>2022-01-06T11:05:43.000Z</updated>
-        <content type="html"><![CDATA[<p>使用 # 号标记<br>
-使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。</p>
-<h1 id="一级标题">一级标题</h1>
-<h2 id="二级标题">二级标题</h2>
-<h3 id="三级标题">三级标题</h3>
-<h4 id="四级标题">四级标题</h4>
-<h5 id="五级标题">五级标题</h5>
-<h6 id="六级标题">六级标题</h6>
-<p>字体<br>
+        <content type="html"><![CDATA[<p><strong>使用 # 号标记</strong><br>
+使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。<br>
+<code># 一级标题</code><br>
+<code>## 二级标题</code><br>
+<code>### 三级标题</code><br>
+<code>#### 四级标题</code><br>
+<code>##### 五级标题</code><br>
+<code>###### 六级标题</code></p>
+<p><strong>字体</strong><br>
 Markdown 可以使用以下几种字体：</p>
-<p><em>斜体文本</em><br>
-<em>斜体文本</em><br>
-<strong>粗体文本</strong><br>
-<strong>粗体文本</strong><br>
-<em><strong>粗斜体文本</strong></em><br>
-<em><strong>粗斜体文本</strong></em></p>
-<p>分隔线<br>
-你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<p>删除线<br>
+<p><code>*斜体文本*</code><br>
+<code>_斜体文本_</code><br>
+<code>**粗体文本**</code><br>
+<code>__粗体文本__</code><br>
+<code>***粗斜体文本***</code><br>
+<code>___粗斜体文本___</code></p>
+<p><strong>分隔线</strong><br>
+你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：<br>
+<code>***</code><br>
+<code>* * *</code><br>
+<code>*****</code><br>
+<code>- - -</code><br>
+<code>----------</code><br>
+<strong>删除线</strong><br>
 如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可，实例如下：</p>
-<p><s>BAIDU.COM</s><br>
+<p><code>~~BAIDU.COM~~</code><br>
 效果如下：<br>
-BAIDU.COM</p>
-<p>Markdown 列表<br>
+<s>BAIDU.COM</s></p>
+<p><strong>Markdown 列表</strong><br>
 Markdown 支持有序列表和无序列表。</p>
-<p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：<br>
-Markdown 代码</p>
-<p>代码区块使用 4 个空格或者一个制表符（Tab 键）<br>
-MarkdowMarkdown 图片语法格式</p>
-<figure data-type="image" tabindex="1"><img src="%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="alt 属性文本" loading="lazy"></figure>
-<p><img src="%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="alt 属性文本" title="可选标题" loading="lazy"><br>
-开头一个感叹号 !<br>
+<p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个<font color=#008000 >空格</font>，然后再填写内容：<br>
+<strong>Markdown 代码</strong></p>
+<ul>
+<li>代码区块使用 4 个空格或者一个制表符（Tab 键）</li>
+</ul>
+<p><strong>MarkdowMarkdown 图片语法格式</strong></p>
+<pre><code>![alt 属性文本](图片地址)
+
+![alt 属性文本](图片地址 &quot;可选标题&quot;)
+</code></pre>
+<p>开头一个感叹号 !<br>
 接着一个方括号，里面放上图片的替代文字<br>
 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。</p>
+<pre><code>![QIANG 图标](https://github.com/qiangwum/blogs/blob/main/demo.png)
+![QIANG 图标](https://github.com/qiangwum/blogs/blob/main/demo.png &quot;Qiang&quot;)
+</code></pre>
 <p><img src="https://github.com/qiangwum/blogs/blob/main/demo.png" alt="QIANG 图标" loading="lazy"><br>
-<img src="https://github.com/qiangwum/blogs/blob/main/demo.png" alt="QIANG 图标" title="Qiang" loading="lazy"><br>
-QIANG 图标<br>
-QIANG 图标<br>
-Markdown 链接<br>
+<img src="https://github.com/qiangwum/blogs/blob/main/demo.png" alt="QIANG 图标" title="QIANG" loading="lazy"><br>
+<strong>Markdown 链接</strong><br>
 链接使用方法如下：<br>
-<a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a></p>
-<p>截图工具xsnip_1.1.0.4.zip</p>
+<code>[链接名称](链接地址)</code></p>
+<p>截图工具<a href="https://github.com/qiangwum/blogs/files/7818733/xsnip_1.1.0.4.zip">xsnip_1.1.0.4.zip</a></p>
 ]]></content>
     </entry>
 </feed>
